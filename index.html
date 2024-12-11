@@ -1,0 +1,55 @@
+<!-- pos.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS - Pharmacy ERP</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://apis.google.com https://www.gstatic.com;">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <div class="sidebar" id="sidebar">
+        <h2>Pharmacy ERP</h2>
+        <a href="pos.html">Sales and Billing (POS)</a>
+        <a href="inventory.html">Inventory Management</a>
+        <a href="crm.html">Customer Management (CRM)</a>
+        <a href="purchase.html">Purchase & Vendor Management</a>
+        <a href="accounting.html">Accounting & Finance</a>
+        <a href="reporting.html">Reporting & Analytics</a>
+        <a href="compliance.html">Regulatory Compliance</a>
+        <a href="employee.html">Employee Management</a>
+        <a style="background-color:#c0392b; margin-top:20px;" onclick="signOutUser()">Sign Out</a>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main-content" id="mainContent">
+        <!-- Notification -->
+        <div id="notification" class="notification"></div>
+
+        <!-- POS Module Content -->
+        <h2>Sales and Billing (POS)</h2>
+        <!-- Add your POS module content here -->
+    </div>
+
+    <!-- Shared Components: Modal, etc. -->
+    <!-- You can include modals or other shared components here -->
+
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+
+    <!-- Shared JavaScript Files -->
+    <script src="js/firebase.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Module-specific JavaScript -->
+    <script>
+        // POS-specific JavaScript code goes here
+    </script>
+</body>
+</html>
